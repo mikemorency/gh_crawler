@@ -1,0 +1,20 @@
+# Configuration for the GitHub repo report crawler.
+#
+# Repos and files listed here are the defaults. The CLI can add more repos
+# (--repo owner/name) or point at a different config (--config path).
+
+# Public repos to crawl, as "owner/name".
+repos:
+  - ansible-collections/vmware.vmware
+  - ansible-collections/vmware.vmware_rest
+  - ansible-collections/microsoft.wsl
+  - ansible-collections/microsoft.scom
+  - ansible-collections/microsoft.mecm
+  - ansible-collections/ansible.oci
+  - ansible-collections/ansible.splunk
+  - ansible-collections/azure.ai
+  - ansible-collections/splunk.es
+  - ansible-collections/splunk.itsi
+  - ansible-collections/splunk.enterprise
+  - ansible-collections/servicenow.itsm
+  - ansible-collections/microsoft.scvmm
